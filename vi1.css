@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav_logo {
+    float: left;
+    padding-left: 20px;
+}
+
+.nav_text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.icon {
+    float: right;
+    padding-right: 20px;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+.nav-items, .nav-items1, .nav-items2 {
+    font-size: 18px;
+}
+
+.nav-items a, .nav-items1 a, .nav-items2 a {
+    color: #333;
+    padding: 8px 15px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-items a:hover, .nav-items1 a:hover, .nav-items2 a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.a {
+    text-align: center;
+    padding: 20px;
+}
+
+.ab, .web, .d, .c {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ab img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.b p, .web p, .d p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-box {
+        flex-direction: column;
+    }
+
+    .nav-items, .nav-items1, .nav-items2 {
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .ab img {
+        width: 150px;
+        height: 150px;
+    }
+}
